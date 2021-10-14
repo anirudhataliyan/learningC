@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main(){
+    float celsius;
+    printf("Enter temperature in Celsius: ");
+    scanf("%f", &celsius);
+    float fahr=(celsius*9)/5+32;
+    printf("The value in Fahr: %f", fahr);
+    return 0;
+}
