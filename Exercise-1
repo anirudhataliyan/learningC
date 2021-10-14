@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(){
+    int a,b;
+    printf("Enter value of a : ");
+    scanf("%d", &a);
+    printf("Enter value of b: ");
+    scanf("%d", &b);
+    int sum=a+b;
+    printf("Their sum: %d",sum*3);
+    if (a=b)
+        printf("Triple of sum %d", sum*3);
+    
+    return 0;
+}
