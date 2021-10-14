@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(){
+    int num1 = 51;
+    int n;
+    printf("Enter valye of n: ");
+    scanf("%d", &n);
+    printf("The absolute difference is : %d", n-num1);
+    
+    if (n>num1)
+        printf("Triple difference is %d", (n-num1)*3);
+    return 0;
+}
