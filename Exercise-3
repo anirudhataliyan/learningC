@@ -1,0 +1,16 @@
+// incomplete
+
+#include <stdio.h>
+
+int main(){
+    int a,b;
+    printf("Enter first number: ");
+    scanf("%d",&a);
+    printf("Enter secound numer: ");
+    scanf("%d", &b);
+    if (a=30) and (b=30)
+        printf("yes");
+    elif (a+b=30)
+        printf("Yes");
+    return 0;
+}
