@@ -15,6 +15,8 @@
       12. Centigrade to faharanite 
 */
 
+/* Making Functions*/
+
 int inches_to_cm(){
   int num1;
   float result1;
@@ -124,11 +126,17 @@ int centigrate_to_faharanite(){
   result12 = (float) num12*(1.8)+32;
   printf("the value is %0.2f \n", result12);
 }
+
+/* Main Program */ 
+
 int main()
 {
     int choice;
-    printf("\n1. Inches to CM's\n2. Pounds to KG's \n3. KM's to miles \n4. Inches to foot \n5. Inches to meters \n6. Faharanite to Centigrade \n7. CM's to inches \n8. KG's to pounds \n9. Miles to KM's \n10. Foot to inches \n11. Meters to Inches \n12. Centigrade to Faharanite) \nEnter your choice:");
+    printf("\n1. Inches to CM's\n2. Pounds to KG's \n3. KM's to miles \n4. Inches to foot \n5. Inches to meters \n6. Faharanite to Centigrade \n7. CM's to inches \n8. KG's to pounds \n9. Miles to KM's \n10. Foot to inches \n11. Meters to Inches \n12. Centigrade to Faharanite) \nEnter your choice: ");
     scanf("%d", &choice);
+  
+ /* Declaring Choices */
+      
   if (choice==1){
       inches_to_cm();
     }
@@ -164,6 +172,9 @@ int main()
   }
   if (choice==12){
     centigrate_to_faharanite();
+  }
+  else{
+      printf("Incorrect Choice\n ");
   }
   return 0;
 }
